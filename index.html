@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Biodata</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    .info {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+
+    .label {
+        font-weight: bold;
+        color: #0077cc;
+    }
+
+    #dateTime {
+        text-align: center;
+        color: #555;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .skills span {
+        background: #0077cc;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin: 5px;
+        display: inline-block;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>My Biodata</h1>
+
+    <div class="info">
+        <span class="label">Name:</span> Your Name
+    </div>
+
+    <div class="info">
+        <span class="label">Email:</span> your.email@example.com
+    </div>
+
+    <div class="info">
+        <span class="label">Phone:</span> +91 XXXXX XXXXX
+    </div>
+
+    <div class="info">
+        <span class="label">Location:</span> Maharashtra, India
+    </div>
+
+    <div class="info">
+        <span class="label">Education:</span> B.E./B.Tech/MCA/etc.
+    </div>
+
+    <div class="info">
+        <span class="label">About Me:</span>
+        Passionate about Cloud Computing, AWS, DevOps and Web Development.
+    </div>
+
+    <div class="info skills">
+        <span class="label">Skills:</span><br><br>
+        <span>AWS</span>
+        <span>Linux</span>
+        <span>Docker</span>
+        <span>GitHub</span>
+        <span>Python</span>
+        <span>Terraform</span>
+    </div>
+
+    <div id="dateTime"></div>
+</div>
+
+<script>
+function updateTime() {
+    const now = new Date();
+    document.getElementById("dateTime").innerHTML =
+        "Current Time: " + now.toLocaleString();
+}
+
+setInterval(updateTime, 1000);
+updateTime();
+</script>
+
+</body>
+</html>
