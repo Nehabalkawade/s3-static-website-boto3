@@ -38,4 +38,4 @@ Actively learning Cloud & DevOps technologies and working on real-time projects.
 Generated on: 19/06/2026
 ## Live Project
 
-👉 :contentReference[oaicite:0]{index=0}
+👉 [Open Website](http://neha-static-website-001.s3-website.ap-south-1.amazonaws.com/)
