@@ -36,8 +36,7 @@ Actively learning Cloud & DevOps technologies and working on real-time projects.
 
 ## Timestamp
 Generated on: 19/06/2026
-## Live Project
 
-🌐 Live Website
+## 🌐 Live Website
 
-http://neha-static-website-001.s3-website.ap-south-1.amazonaws.com
+👉 [Open Website](http://neha-static-website-001.s3-website.ap-south-1.amazonaws.com)
